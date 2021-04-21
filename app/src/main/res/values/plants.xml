@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cure_plants">
+        <item>asdasdasdasdasdasd</item>
+        <item>asfasdagsfdgsdfg</item>
+        <item>rewrw</item>
+        <item>jivijvdfjivdfjiofdijo</item>
+        <item>xkjjxjviojvvdf</item>
+    </string-array>
+
+    <string-array name="awesome_plants">
+        <item>asdasdasdasdasdasd</item>
+        <item>asfasdagsfdgsdfg</item>
+        <item>sdfsdf</item>
+        <item>jivijvdfjivdfjiofdijo</item>
+        <item>sdfsdf</item>
+    </string-array>
+
+    <string-array name="danger_plants">
+        <item>asdasdaerwrwsdasdasdasd</item>
+        <item>asfasdagsfdgsdfg</item>
+        <item>sdfsdf</item>
+        <item>jivijvdfjivdfjiofdijo</item>
+        <item>xkjjxjviojvvdf</item>
+    </string-array>
+
+
+    <!--PLANTS TITLE-->
+
+    <string-array name="cure_plants_title">
+        <item>asdasdasdasdasdasd</item>
+        <item>asfasdagsasdasfdgsdfg</item>
+        <item>oiweiweioewowo</item>
+        <item>jivijvdfjivdfjiofdijo</item>
+        <item>xkjjxjviojvvdf</item>
+    </string-array>
+
+    <string-array name="awesome_plants_title">
+        <item>asdasdasdasdasdasd</item>
+        <item>asfasdagsfdgsdfg</item>
+        <item>oiweiweioewowo</item>
+        <item>jivijvdfjsdfivdfjiofdijo</item>
+        <item>xkjjxjviojvvdf</item>
+    </string-array>
+
+    <string-array name="danger_plants_title">
+        <item>asdasdasdasdasdasd</item>
+        <item>asfasdagsfdgsdfg</item>
+        <item>oiweiwefdgdfioewowo</item>
+        <item>jivijvdfjivdfjiofdijo</item>
+        <item>xkjjxjviojvvdf</item>
+    </string-array>
+</resources>

@@ -24,7 +24,9 @@ import com.google.android.material.navigation.NavigationView;
  * MenuListFragment
  */
 
-public class MenuListFragment extends Fragment {
+public class MenuListFragment extends Fragment{
+
+    private NavItemSelectedListener navItemSelectedListener;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -40,7 +42,8 @@ public class MenuListFragment extends Fragment {
         vNavigation.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-                Toast.makeText(getActivity(),menuItem.getTitle(),Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getActivity(),menuItem.getTitle(),Toast.LENGTH_SHORT).show();
+                navItemSelectedListener.onNavItemSelectedListener(menuItem);
                 return false;
             }
         }) ;
@@ -67,9 +70,12 @@ public class MenuListFragment extends Fragment {
         if(getActivity() != null){
             Typeface font = Typeface.createFromAsset(getActivity().getAssets(), getString(R.string.font1));
             SpannableString mNewTitle = new SpannableString(mi.getTitle());
-            mNewTitle.setSpan(new CustomTypefaceSpan("", font), 0, mNewTitle.length(), Spannable.SPAN_INCLUSIVE_INCLUSIVE);
+            mNewTitle.setSpan(new CustomTypeFaceSpan("", font), 0, mNewTitle.length(), Spannable.SPAN_INCLUSIVE_INCLUSIVE);
             mi.setTitle(mNewTitle);
         }
     }
 
+    public void setNavItemSelectedListener(NavItemSelectedListener navItemSelectedListener) {
+        this.navItemSelectedListener = navItemSelectedListener;
+    }
 }

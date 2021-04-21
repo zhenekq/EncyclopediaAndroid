@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="humour_words">
+        <item>asdasdasdasdasdasd</item>
+        <item>asfasdagsfdgsdfg</item>
+        <item>oiweaaadsfsdfaiweioewowo</item>
+        <item>jivijvdfjivdfjiofdijo</item>
+        <item>xkjjxjviojvvdf</item>
+    </string-array>
+
+    <string-array name="philosophers_words">
+        <item>asdasdasdasdasdasd</item>
+        <item>asfasdagwqeqwsfdgsdfg</item>
+        <item>oiweiweioewowo</item>
+        <item>jivijvdddddddfjivdfjiofdijo</item>
+        <item>xkjjxjviojvvdf</item>
+    </string-array>
+
+    <string-array name="clever_words">
+        <item>asdasdasfgtrewdasdasdasd</item>
+        <item>asfasdagsfdgsdfg</item>
+        <item>oiweiweioewowo</item>
+        <item>jivijvdfjivdfjiofdijo</item>
+        <item>xkjjxjvioweqweqwjvvdf</item>
+    </string-array>
+
+
+    <!--WORDS TITLE-->
+
+    <string-array name="humour_words_title">
+        <item>asdasdasdasdasdasd</item>
+        <item>asfasdagsdfdsfsfdgsdfg</item>
+        <item>oiweiweioeqweqwwowo</item>
+        <item>jivijvdfqweqwefdsfjivdfjiofdijo</item>
+        <item>xkjjxjviojvvdf</item>
+    </string-array>
+
+    <string-array name="philosophers_words_title">
+        <item>asdasfsdfsdfsddasdasdasdasd</item>
+        <item>asfasdafsdfsdfgsfdgsdfg</item>
+        <item>oiweiweioewowo</item>
+        <item>jivijvdfsdfsddsfsdfsdjivdfjiofdijo</item>
+        <item>xkjjxjviojvvdf</item>
+    </string-array>
+
+    <string-array name="clever_words_title">
+        <item>asdasdasdasdasdasd</item>
+        <item>asfasdagsdfsdfsdsfdgsdfg</item>
+        <item>oiweiweioewowo</item>
+        <item>jivijvdfdsffsfdsjivdfjiofdijo</item>
+        <item>xkjjxjviojvvdf</item>
+    </string-array>
+</resources>

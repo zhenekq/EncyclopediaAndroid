@@ -5,10 +5,10 @@ import android.graphics.Typeface;
 import android.text.TextPaint;
 import android.text.style.TypefaceSpan;
 
-class CustomTypefaceSpan extends TypefaceSpan {
+class CustomTypeFaceSpan extends TypefaceSpan {
     private final Typeface newType;
 
-    public CustomTypefaceSpan(String family, Typeface type) {
+    public CustomTypeFaceSpan(String family, Typeface type) {
         super(family);
         newType = type;
 

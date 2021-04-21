@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="planets">
+        <item>PLANETSasdasdasdasdasdasd</item>
+        <item>asfasdagsfdgsdfg</item>
+        <item>oiweiweioewowo</item>
+        <item>jivijvrewdfjivdfjiofdijo</item>
+        <item>xkjjxjviojvvdf</item>
+    </string-array>
+
+    <string-array name="stars">
+        <item>STARSasdasdasdasdasdasd</item>
+        <item>1asfasdagsfdgsdfg</item>
+        <item>oiweiwerweioewowo</item>
+        <item>jivijvdfjivdfjiofdijo</item>
+        <item>xkjjxjviojvvdf</item>
+    </string-array>
+
+    <string-array name="travels">
+        <item>TRAVELSasdasdasdasdasdasd</item>
+        <item>asfasdagsfdgsdfg</item>
+        <item>oiweiweioewowo</item>
+        <item>jivijvwerdfjivdfjiofdijo</item>
+        <item>xkjjxjviojvvdf</item>
+    </string-array>
+
+    <string-array name="universe">
+        <item>UNIVERSEasdasdaewrsdasdasdasd</item>
+        <item>asfasdagsfdgsdfg</item>
+        <item>oiweiweioewowo</item>
+        <item>jivijvdfjivdfjiofdijo</item>
+        <item>xkjjxjviojvvdf</item>
+    </string-array>
+
+   <!--PLANETS TITLE-->
+
+    <string-array name="planets_title">
+        <item>asdasdasdasdasdasd</item>
+        <item>asfasdagsfdgsdfg</item>
+        <item>oiweiweioewowo</item>
+        <item>jiwervijvdfjivdfjiofdijo</item>
+        <item>xkjjxjviojwervvdf</item>
+    </string-array>
+
+    <string-array name="stars_title">
+        <item>asdasdasdasdasdasd</item>
+        <item>asfasdagsfdgsdfg</item>
+        <item>oiweiweisdfoewowo</item>
+        <item>jivijvdfjiewrvdfjiofdijo</item>
+        <item>xkjjxjviojvvdf</item>
+    </string-array>
+
+    <string-array name="travels_title">
+        <item>asdasdasdasdasdasd</item>
+        <item>asfasdagsfdgsdfg</item>
+        <item>oiweiwewreioewowo</item>
+        <item>jivijvdfjivdfjiofdijo</item>
+        <item>xkjjxjviojvvdf</item>
+    </string-array>
+
+    <string-array name="universe_title">
+        <item>asdasdasdasdasdasd</item>
+        <item>asfasdagerwsfdgsdfg</item>
+        <item>oiweiweioewowo</item>
+        <item>jivijvdfjivdfjiofdijo</item>
+        <item>xkjjxjviosdfjvvdf</item>
+    </string-array>
+
+</resources>

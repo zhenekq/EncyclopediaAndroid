@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ufo">
+        <item>sd</item>
+        <item>gfd</item>
+        <item>oiweiweioewowo</item>
+        <item>jivijvdfjivdfjiofdijo</item>
+        <item>dfg</item>
+    </string-array>
+
+    <string-array name="spirits">
+        <item>asdasdasdasdasdasd</item>
+        <item>asfasdagsfdgsdfg</item>
+        <item>sdfsdf</item>
+        <item>jivijvdfjivdfjiofdijo</item>
+        <item>sdfsdf</item>
+    </string-array>
+
+    <!--PLANTS TITLE-->
+
+    <string-array name="ufo_title">
+        <item>asdasdasdasdasdasd</item>
+        <item>asfasdagsfdgsdfg</item>
+        <item>rer</item>
+        <item>jivijvdfjivdfjiofdijo</item>
+        <item>xkjjxjviojvvdf</item>
+    </string-array>
+
+    <string-array name="spirits_title">
+        <item>werwet</item>
+        <item>asfasdagsfdgsdfg</item>
+        <item>oiweiweioewowo</item>
+        <item>jivijvdfjivdfjiofdijo</item>
+        <item>xkjjxjviojvvdf</item>
+    </string-array>
+</resources>

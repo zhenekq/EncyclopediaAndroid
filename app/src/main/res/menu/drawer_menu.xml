@@ -33,8 +33,6 @@
         <menu>
             <item android:title="@string/awesome_plants"
                 android:id="@+id/id_awesome_plants"/>
-            <item android:title="@string/unusual"
-                android:id="@+id/id_unusual_plants"/>
             <item android:title="@string/danger_plants"
                 android:id="@+id/id_danger_plants"/>
             <item android:title="@string/cure_plants"
@@ -42,8 +40,10 @@
         </menu>
     </item>
 
-    <item android:title="@string/ufo">
+    <item android:title="@string/unusual">
         <menu>
+            <item android:title="@string/ufo"
+                android:id="@+id/id_ufo"/>
             <item android:title="@string/spirits"
                 android:id="@+id/id_spirits"/>
         </menu>
