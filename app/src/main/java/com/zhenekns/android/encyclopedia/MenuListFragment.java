@@ -1,13 +1,19 @@
 package com.zhenekns.android.encyclopedia;
 
+import android.graphics.Typeface;
 import android.os.Bundle;
+import android.text.Spannable;
+import android.text.SpannableString;
 import android.view.LayoutInflater;
+import android.view.Menu;
 import android.view.MenuItem;
+import android.view.SubMenu;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
@@ -33,14 +39,37 @@ public class MenuListFragment extends Fragment {
         NavigationView vNavigation = view.findViewById(R.id.vNavigation);
         vNavigation.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
-            public boolean onNavigationItemSelected(MenuItem menuItem) {
+            public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 Toast.makeText(getActivity(),menuItem.getTitle(),Toast.LENGTH_SHORT).show();
                 return false;
             }
         }) ;
+
+        Menu m = vNavigation.getMenu();
+        for(int i=0;i<m.size();i++){
+            MenuItem mi = m.getItem(i);
+
+            SubMenu subMenu = mi.getSubMenu();
+            if(subMenu != null && subMenu.size() > 0){
+                for(int j=0;j<subMenu.size();j++){
+                    MenuItem subMenuItem = subMenu.getItem(j);
+                    applyFontMenuItem(subMenuItem);
+                }
+            }
+
+            applyFontMenuItem(mi);
+        }
+
         return  view ;
     }
 
-
+    private void applyFontMenuItem(MenuItem mi){
+        if(getActivity() != null){
+            Typeface font = Typeface.createFromAsset(getActivity().getAssets(), getString(R.string.font1));
+            SpannableString mNewTitle = new SpannableString(mi.getTitle());
+            mNewTitle.setSpan(new CustomTypefaceSpan("", font), 0, mNewTitle.length(), Spannable.SPAN_INCLUSIVE_INCLUSIVE);
+            mi.setTitle(mNewTitle);
+        }
+    }
 
 }
