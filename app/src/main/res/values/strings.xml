@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Encyclopedia</string>
+    <string name="favorites">Favorites</string>
+    <string name="cosmo">Space</string>
+    <string name="planet">Planets</string>
+    <string name="stars">Stars</string>
+    <string name="travel">Travel</string>
+    <string name="universe">Universe</string>
+    <string name="quotes">Quotes</string>
+    <string name="humour_words">Funny phrases</string>
+    <string name="philosophers_words">Philosophers phrases</string>
+    <string name="clever_words">Clever phrases</string>
+    <string name="plants">Plants</string>
+    <string name="cure_plants">Cure</string>
+    <string name="awesome_plants">Awesome</string>
+    <string name="danger_plants">Danger</string>
+    <string name="unusual">Unusual</string>
+    <string name="ufo">UFO</string>
+    <string name="spirits">Spirits</string>
 </resources>

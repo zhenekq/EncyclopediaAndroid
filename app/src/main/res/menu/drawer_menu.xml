@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/favorites" android:id="@+id/id_favorite"/>
+
+    <item android:title="@string/cosmo">
+        <menu>
+            <item android:title="@string/planet"
+                android:id="@+id/id_planets"/>
+            <item android:title="@string/stars"
+                android:id="@+id/id_stars"/>
+            <item android:title="@string/travel"
+                android:id="@+id/id_travel"/>
+            <item android:title="@string/universe"
+                android:id="@+id/id_universe"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/quotes">
+        <menu>
+            <item android:title="@string/clever_words"
+                android:id="@+id/id_clever_words"/>
+            <item android:title="@string/philosophers_words"
+                android:id="@+id/id_philosophers_words"/>
+            <item android:title="@string/humour_words"
+                android:id="@+id/id_humour_words"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/plants">
+        <menu>
+            <item android:title="@string/awesome_plants"
+                android:id="@+id/id_awesome_plants"/>
+            <item android:title="@string/unusual"
+                android:id="@+id/id_unusual_plants"/>
+            <item android:title="@string/danger_plants"
+                android:id="@+id/id_danger_plants"/>
+            <item android:title="@string/cure_plants"
+                android:id="@+id/id_cure_plants"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/ufo">
+        <menu>
+            <item android:title="@string/spirits"
+                android:id="@+id/id_spirits"/>
+        </menu>
+    </item>
+
+</menu>
